@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nerko One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shantell Sans">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>The Bouncing Ball</title>
+
+
+<body>
+    <div id="container_main">
+        <div id="content_wrap"> <!-- Fixes container size issue to keep footer in place -->
+
+            <div id="container_left">
+                <div id="title">
+                    <h1>Catch the Bouncing Ball</h1>
+                    <h2>Click the ball to advance to the next level.</h2>
+                </div>
+            </div>
+
+
+            <div id="container_right">
+                <div id="message_container">
+                    <h1 class="message" id="congrats">Good Job!</h1>
+                    <h3 class="message" id="next_level">Next level: <span id="level">1</span></h3>
+                    <a id="replay" href="index.html">Replay?</a>
+                </div>
+
+                <div id="ball_container">
+                    <div id="ball"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+    <!-- <footer>
+        <div id="footer_links">
+            <a href="index.html" id="home">Home</a>
+            <a href="http://blog.jenniferdewalt.com" id="blog">Blog</a>
+        </div>
+    </footer> -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
